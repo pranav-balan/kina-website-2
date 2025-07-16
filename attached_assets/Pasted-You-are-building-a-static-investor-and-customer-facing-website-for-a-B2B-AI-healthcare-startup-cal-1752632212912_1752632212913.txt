@@ -1,0 +1,108 @@
+You are building a static, investor- and customer-facing website for a B2B AI healthcare startup called **Kina Health**.
+
+This company provides an **AI audit copilot for risk adjustment (RAF)** in Medicare Advantage and delegated groups. The goal of the website is to:
+1. Establish credibility with payers and investors
+2. Communicate urgency and value around compliance + risk capture
+3. Drive pilot and intro calls, despite no live demo
+4. Be simple, clean, and fast
+
+---
+
+🎯 Build the following pages with basic responsive HTML/CSS (Tailwind CSS optional but not required):
+
+### 1. `index.html` — **Home Page**
+Sections:
+- **Hero Section**
+  - Headline: "AI Risk Adjustment Built for Audits, Accuracy, and Scale"
+  - Subhead: "Kina Health gives payers and delegated groups a smarter way to code risk — increasing capture, reducing waste, and preparing every chart for audit."
+  - CTAs: “Book an Intro Call” (mailto link), “Get Early Access” (anchor to contact form), “Download Product Brief” (link to placeholder PDF)
+
+- **Why Now Section**
+  - Title: “RAF Revenue is Under Scrutiny. Most Teams Aren’t Ready.”
+  - Three bullets with bolded phrases and explanations:
+    - **CMS is cracking down**
+    - **Vendor black boxes don’t hold up under audit**
+    - **Manual QA is breaking**
+
+- **How Kina Helps**
+  - Three tiles with icons and 1-line text each:
+    - Faster Coder Throughput  
+    - Higher Risk Capture  
+    - RADV-Ready Documentation
+
+- **Trust Section**
+  - Placeholder quote from advisor or founder
+  - Optionally say “Backed by former executives from national MA plans”
+
+- **Final CTA**
+  - Buttons: “Get in Touch” (anchor), “Request Product Overview”
+
+---
+
+### 2. `product.html` — **Product Page**
+Sections:
+- **Headline**: “Audit QA Without Replacing Your Vendors”
+- **Subhead**: “Kina wraps around your existing retrieval and coding stack — giving you visibility, traceability, and audit-readiness without switching systems.”
+- **Modules** (6 tiles):
+  - Chart Upload & Validation
+  - AI-Assisted Coding Interface
+  - Audit Logs & Evidence Export
+  - RxHCC Validator
+  - Risk Uplift Reporting
+  - CMS Submission QA
+- **Benefits Table** with 3 rows:
+  | Outcome                | Value                             |
+  |------------------------|-----------------------------------|
+  | Faster, smarter coders | 30–50% throughput improvement     |
+  | Increased capture      | Missed codes surfaced + validated |
+  | RADV-ready by default  | Evidence + log + exportable files |
+
+---
+
+### 3. `team.html` — **Team Page**
+- **Founder Bio**: short intro with founder’s credibility (“healthtech operator, ex-strategy/growth, backed $2B company”)
+- **Optional Team Members**: placeholders only
+- **Advisors** section with simple text:  
+  _"Supported by leaders from national MA plans, delegated groups, and former RAF vendors."_
+
+---
+
+### 4. `contact.html` — **Contact Page**
+- Simple form with:
+  - Name
+  - Email
+  - Organization
+  - [ ] Interested in a pilot
+  - [ ] Want to learn more
+  - Message (optional)
+  - CTA button: “Send”
+- Placeholder `mailto:` form submission or JavaScript alert for now
+
+---
+
+### 5. `terms.html` and `privacy.html` — **Legal Pages**
+- `terms.html`: simple static page with this language:
+  > Kina Health offers an AI-enabled software platform to assist healthcare organizations in reviewing documentation for RAF coding and audit readiness. It is provided “as-is” for evaluation use. Users must have proper authorization and data access rights. No clinical or reimbursement decisions should be made solely using this platform.
+
+- `privacy.html`: simple static page with this language:
+  > We do not collect PHI unless under an active pilot with BAA in place. All user data is encrypted in transit and at rest. We do not sell or share any data. For full security documentation, contact us.
+
+---
+
+💡 Site should be:
+- Mobile responsive
+- Clean fonts, minimal styling (e.g., light gray, white, healthcare blue)
+- Lightweight: no login or backend
+
+Use clean HTML/CSS structure so it can be handed off later for conversion to React or hosted via Vercel or Replit Pages.
+
+Once generated, organize files in `/` as:
+- index.html
+- product.html
+- team.html
+- contact.html
+- terms.html
+- privacy.html
+- /css
+- /assets (if needed)
+
